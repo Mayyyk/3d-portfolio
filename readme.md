@@ -23,4 +23,12 @@ This will start the server and open your default browser to your localhost. The 
 
 That's what it should look like in the browser:
 
-![image](https://github.com/user-attachments/assets/1c9704b8-a5ea-4d8e-9ce1-9c5376e1f070)
+![Zrzut ekranu 2025-03-15 135509](https://github.com/user-attachments/assets/35c7ab02-bb05-42df-98c7-1278e83722c2)
+
+The project isn't perfect, unfortunately there are bugs and the character sometimes drops below the surface. Also the distance from portals isn't calculated perfectly and detection doesn't work as intended resulting in showing example portfolio popup at improper times.
+
+However I'm still quite happy with the result and the skills I've gained.
+Everything is based on the Vite starter pack as it's a lightweight and simple solution.
+I've used THREE.JS library to create the world.
+Then I implemented physics with use of Rapier engine.
+Finally, I've modeled the scene in Blender, dropped it into my THREE.JS world.
