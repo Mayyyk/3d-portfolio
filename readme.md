@@ -28,7 +28,13 @@ That's what it should look like in the browser:
 The project isn't perfect, unfortunately there are bugs and the character sometimes drops below the surface. Also the distance from portals isn't calculated perfectly and detection doesn't work as intended resulting in showing example portfolio popup at improper times.
 
 However I'm still quite happy with the result and the skills I've gained.
+
 Everything is based on the Vite starter pack as it's a lightweight and simple solution.
-I've used THREE.JS library to create the world.
-Then I implemented physics with use of Rapier engine.
-Finally, I've modeled the scene in Blender, dropped it into my THREE.JS world.
+
+I've used **THREE.JS library** to create the world.
+
+Then I implemented physics with use of **Rapier engine**.
+
+Finally, I've modeled the scene in **Blender**, dropped it into my THREE.JS world.
+
+Also, the assets are managed by **Zustand** - storing info about their loading state is crucial for the app to work well.
